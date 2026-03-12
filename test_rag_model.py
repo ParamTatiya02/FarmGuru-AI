@@ -1,24 +1,33 @@
 from pdf_reader import PDFReader
 from rag_pipeline import RAGPipeline
+from llm_client import LLMClient
+from secret_key import sarvam_ai_key
+import os
 
-# Step 1: extract text
+# initialize
 reader = PDFReader("data")
-text = reader.read_pdf("data/Turmeric-research.pdf")
-
-# Step 2: create RAG pipeline
 rag = RAGPipeline()
+os.environ['SARVAM_API_KEY'] = sarvam_ai_key
+llm = LLMClient(api_key=os.environ['SARVAM_API_KEY'])
 
-# Step 3: split text
+# extract text
+text = reader.read_pdf("data/आंबा फळपिक बुक.pdf")
+
+# create chunks
 chunks = rag.create_chunks(text)
 
-# Step 4: create vector database
+# create vector db
 vector_db = rag.create_vector_db(chunks)
 
-# Step 5: ask question
-query = "Summarize this research paper?"
-print(query)
+# user query
+question = "How to control mango pests?"
+print(question)
 
-context = rag.query(vector_db, query)
+# retrieve context
+context = rag.query(vector_db, question)
 
-print("\nRetrieved Context:\n")
-print(context)
+# ask LLM
+answer = llm.ask(context, question)
+
+print("\nAnswer:\n")
+print(answer)

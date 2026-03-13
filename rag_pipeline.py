@@ -1,6 +1,6 @@
 import os
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain_community.embeddings import SentenceTransformerEmbeddings
+from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 
 
@@ -8,7 +8,7 @@ class RAGPipeline:
 
     def __init__(self, index_path: str = "vectorDB"):
         self.index_path = index_path
-        self.embeddings = SentenceTransformerEmbeddings(
+        self.embeddings = HuggingFaceEmbeddings(
             model_name="BAAI/bge-m3"
         )
 

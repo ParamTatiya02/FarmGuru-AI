@@ -5,7 +5,7 @@ import os
 
 class LLMClient:
 
-    def __init__(self, api_key):
+    def __init__(self):
 
         os.environ["SARVAM_API_KEY"] = sarvam_ai_key
         self.client = SarvamAI(api_subscription_key=os.environ['SARVAM_API_KEY'])

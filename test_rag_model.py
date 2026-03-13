@@ -8,7 +8,7 @@ import os
 reader = PDFReader("data")
 rag = RAGPipeline()
 os.environ['SARVAM_API_KEY'] = sarvam_ai_key
-llm = LLMClient(api_key=os.environ['SARVAM_API_KEY'])
+llm = LLMClient()
 
 # -------- BUILD VECTOR DB -------- #
 if os.path.exists("faiss_index"):

@@ -55,7 +55,7 @@ class LLMClient:
                     {"role": "user", "content": message}
                 ]
             )
-            return response.choices[0].message.content
+            return response.choices[0].message.content[7:]
 
         except Exception as e:
             print(f"❌ Casual chat error: {e}")
@@ -88,7 +88,7 @@ class LLMClient:
                     {"role": "user", "content": prompt}
                 ]
             )
-            return response.choices[0].message.content
+            return response.choices[0].message.content[7:]
         except Exception as e:
             print(f"❌ Sarvam AI error: {e}")
             return "Sorry, I was unable to get an answer. Please try again."

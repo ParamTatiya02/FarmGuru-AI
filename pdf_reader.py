@@ -144,10 +144,6 @@ class PDFReader:
 
     # -------- READ SINGLE PDF -------- #
     def read_pdf(self, path: str) -> str:
-        """
-        Read a single PDF file and return extracted text.
-        Automatically detects language and uses OCR if needed.
-        """
         # Step 1: Try pdfplumber on first 3 pages only (fast)
         plumber_text = ""
         with pdfplumber.open(path) as pdf:
@@ -161,13 +157,36 @@ class PDFReader:
             print("✅ pdfplumber text looks clean")
             language = self._detect_language(plumber_text[:3000])
         else:
-            print("⚠️  Garbage text → using OCR on page 1 only for detection")
-            first_page = convert_from_path(path, first_page=1, last_page=1)
-            sample = pytesseract.image_to_string(first_page[0], lang="eng+hin+mar")
-            language = self._detect_language(sample)
+            print("⚠️  Garbage/empty text → using OCR for detection")
+            # ✅ Try pages 2, 3, 4 instead of just page 1
+            # Page 1 is often a cover image with little text
+            language = "unknown"
+            for page_num in [3, 4, 5, 2, 1]:  # inner pages first
+                try:
+                    images = convert_from_path(
+                        path,
+                        first_page=page_num,
+                        last_page=page_num
+                    )
+                    sample = pytesseract.image_to_string(
+                        images[0],
+                        lang="eng+hin+mar"
+                    )
+                    print(f"🔍 OCR sample page {page_num}: {sample[:100]}")
+                    if len(sample.strip()) > 50:  # enough text to detect
+                        language = self._detect_language(sample)
+                        if language != "unknown":
+                            print(f"✅ Language detected from page {page_num}: {language}")
+                            break
+                except Exception as e:
+                    print(f"⚠️ Page {page_num} failed: {e}")
+                    continue
+
+            if language == "unknown":
+                print("⚠️ Could not detect language, defaulting to Marathi")
+                language = "mr"  # safe default for your use case
 
         print(f"📄 Detected language: {language}")
-
         # Step 3: Convert and extract all pages
         all_images = convert_from_path(path)
         print(f"📄 Total pages: {len(all_images)}")
@@ -178,7 +197,6 @@ class PDFReader:
 
         print(f"✅ All {len(all_images)} pages extraction complete!")
         return full_text
-
     # -------- READ ALL PDFs IN FOLDER -------- #
     def read_all_pdfs(self) -> dict:
         """

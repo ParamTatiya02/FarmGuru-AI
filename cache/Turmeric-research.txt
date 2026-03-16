@@ -1,0 +1,537 @@
+@
+
+Indian Journal of Agricultural Sciences 89 (12): 2020-4, December 2019/Article
+
+https://doi.org/10.56093/ijas.v89i12.96266
+
+Vertical cropping to enhance productivity and profitability of
+dry terraces in North Eastern Indian Himalayas
+
+AS PANWAR!, SUBHASH BABU?, KOHIMA NOOPUR?, M TAHASHILDAR‘,
+SANJEEV KUMAR® and ABHISHEK SINGH®
+
+ICAR Research Complex for NEH Region, Umiam, Meghalaya 793 103, India
+
+Received: 16 February 2019; Accepted: 31 May 2019
+
+ABSTRACT
+
+Land terracing is a vital means to minimize soil erosion in steep slopes of north eastern region of India.
+Monocropping of turmeric is one of the main production systems in these terraces, resulting in poor land productivity
+and profitability. Hence, a fixed plot field experiment was undertaken during five consecutive years (2012-17) at
+ICAR Research Complex for NEH Region, Meghalaya by involving five vertical cropping combinations, viz. turmeric
+(Curcuma longa)+cucumber (Cucumis sativus), turmeric+bottlegourd (Lagenaria siceraria), turmeric+sponge gourd
+(Luffa aegyptiaca), turmeric+squash (Sechium edule) and turmeric sole (open cultivation) to find out the best cucurbits
+for vertical integration with turmeric for efficient utilization of natural resources and profit maximization. Results
+revealed that integration of bottle gourd with turmeric in vertical fashion recorded the maximum system productivity
+(33.94 t/ha), profitability (¥ 1308 ha/day) and B:C ratio (3.37). Over all, vertical integration of cucurbits increased
+38.52% yield of turmeric over open cultivation. Maximum enhancement in soil organic carbon (SOC) (2.18%),
+available N (241 kg/ha), P (22.2 kg/ha) and K (194.7 kg/ha) were recorded when squash was integrated with turmeric
+followed by turmeric + bottlegourd vertical cropping system. Integration of cucurbits with turmeric improves soil
+microbial biomass carbon (SMBC) level by 9.85% over the open cultivation of turmeric in dry terraces. Hence, vertical
+integration of cucurbits with turmeric not only enhances the system productivity and monetary returns of dry terraces
+
+but also improves the soil fertility status over open cultivation of turmeric.
+
+Key words: Cucurbits, Monocropping, Relative production efficiency, Vertical cropping
+
+The total geographical area of north eastern hill region
+(NEHR) of India is 26.2 Mha. Majority of agricultural
+land (>80%) in the region is sloping and under rainfed
+monocropping systems. Region faces both excess and
+deficit moisture stresses, characterized by heavy rainfall
+during rainy season which very often causes serious soil
+losses and scanty rainfall during post rainy season forces
+farmers to leave their land fallow. Traditional farming
+practices (monocropping) cannot produce enough food to
+feed the population of the region. Further, hilly land is 3-4
+times less efficient in terms of production as compared to
+fertile plain land (Babu et al. 2016). Hence, enhancement
+in land productivity is essential to meet the increasing
+
+'Director (pcaicrpifs.iifsr@icar.gov.in),ICAR- IIFSR
+Modipuram; Scientist (subhiari@gmail.com), 4°Research Fellow
+(tusi.tahasildar8@gmail.com, abhishekhorti0@gmail.com),
+Division of Crop Production, ICAR Research Complex for NEH
+Region, Umiam, Meghalaya; 3Research Scholar (draspanwar@
+gmail.com), Tamil Nadu Agricultural University, Coimbatore;
+5Research Scholar (skyagronomy@gmail.com), Department of
+Soil Science & Agricultural Chemistry, College of Agriculture,
+Central Agricultural University, Imphal, Manipur.
+
+food demand of population in hilly region (Chapagain
+and Raizada 2017). Famers of the NEH region constructed
+impressive terraces on the slopes for cultivation of crops.
+In terracing, hilly terrains are divided into narrow and
+graduated steps, typically 2-3 m wide across the slopes,
+to facilitate cultivation of various crops (Wymann von
+Dach et al. 2013). However, farmers of the region grow
+only one crop during rainy season and during rest of the
+period terraces remain fallow mainly due to moisture
+stress. Vertical cropping involves growing of crops in
+multilayer, with precise utilization of natural resources.
+Growing more number of crops having different growth
+behaviour at a time in the same piece of land, minimizes
+soil erosion (Hoshikawa 1991), maximizes water use
+efficiency, land productivity, profitability and maintains
+soil fertility (Singh et a/. 2014,Trupti et a/. 2018) besides
+reducing the input requirements (Chapagain et a/. 2014).
+Selection of crop in vertical cropping depends upon type of
+soil, topography, landholdings, farmers' needs, availability
+of agricultural inputs and opportunities in local market. As
+vertical cropping allows farmers to produce more number of
+crops in same piece of land, it has the potential to achieve
+the goal of zero hunger and doubling farmers’ income
+under changing production and climatic scenario of NEH
+
+32
+
+
+December 2019] VERTICAL CROPPING IN NORTH EASTERN INDIAN HIMALAYAS 2021
+
+region. In case of failures of one crop other can generate
+some income, thus, vertical cropping gives resilience to a
+production system and helps combat inherent risk associated
+with agriculture especially in rainfed production systems
+where it can act as “biological insurance”. Vertical cropping
+offers various kinds of crops having different operationa
+requirement hence, reduces seasonal work peaks and
+provides continuous employments. Turmeric is second
+most important spice crop of the north east region (NER)
+contributing about 12% share in India’s national market.
+However, farmers of the region are not able to harvest ful
+potential of turmeric as it is a partially shade loving crop
+and shade level influence the growth and tuber yield of
+turmeric (Srikrishnah and Sutharsan 2015). But the farmers
+of NER region generally grow turmeric in open condition
+as a rainfed monocrop.Turmeric grows well under partia
+shade, however, higher shades affected yield adversely
+(Singh and Edison 2003). Cultivation of cucurbitaceous
+crops namely cucumber, bottle gourd, sponge gourd, squash
+is an integral component of farming in NEHR of India,
+however, yield per unit area of these cucurbits is very low
+due to poor management practices. But these cucurbits
+have very good foliage.Due to high crop coverage there is
+minimal water run-off. Therefore, it was hypothesized that
+integration of turmeric with cucurbits in vertical fashion
+simultaneously on the same piece of land will enhance
+productivity, profitability, and resource use efficiency of
+sloping land. Hence, the present study was conducted at
+25-32% slopes on dry terraces to find out the best cucurbit
+for vertical integration in turmeric for efficient utilization
+of natural resources and profit maximization.
+
+MATERIALS AND METHODS
+
+Fixed plot field experiment was undertaken during five
+consecutive years (2012-17) at Farming Systems Research
+Project, ICAR Research Complex for NEH Region, Umiam,
+Meghalaya situated at latitude 25°41'21"N and longitude
+91°55'25"E, at an altitude of 980 amsl. Umiam has a tropical
+monsoon climate and 70% of the total rainfall is received
+from July to September. December to March is extremely
+dry period during which crop suffers from water scarcity.
+The experimental site received a total rainfall of 2087,
+2011, 2344, 2551 and 2217 mm/annum during 2012-13,
+2013-14, 2014-15, 2015-16 and 2016-17, respectively.
+Wide variation in rainfall distribution across the years was
+observed during experimentation. During 2012, 2014 and
+2015 August was the wettest month while June and July
+received the maximum rainfall during 2013 and 2016,
+respectively. The variation in maximum temperature was
+also observed across the years, during 2012 maximum
+temperature was recorded in May (29.2°C). However,
+the maximum temperature during 2013, 2014 and 2015
+was recorded in July and during 2016, June (28.6°C)
+was observed as the hottest month. Although minimum
+temperature remained constant and the lowest temperature
+in all the five years was recorded in the month of January.
+The experimental soil was acidic in nature, rich in organic
+
+matter and low in nitrogen and medium in phosphorus
+and potassium. The initial content of pH, organic carbon,
+available N, P, K and soil microbial biomass carbon (SMBC)
+was 4.92, 2.12%, 201.2 kg/ha, 15.9 kg/ha and 156.1 kg/
+ha, 149.3 g/kg soil, respectively. Five vertical cropping
+combinations, viz. turmeric (Curcuma longa) + cucumber
+(Cucumis sativus), turmeric + bottlegourd (Lagenaria
+siceraria), turmeric + spongegourd (Luffa aegyptiaca),
+turmeric + squash (Sechium edule) and turmeric in open
+condition were tested in Randomized Block Design (RBD)
+replicated four times.
+
+The vertical structure commonly called as machan
+(raised platform about 1.5 to 2 m above ground) was made
+from locally available bamboos as per the treatment’s
+requirement to provide climbing support to cucurbits. In
+order to avoid the mixing of soil in different plots, individual
+plots were prepared manually using a spade each year for
+planting turmeric crop. A nitrogen equivalent of 80 kg was
+applied through organic manures before sowing turmeric.
+Farmyard manure (FYM) @10 t/ha was also at the time
+of last spading. Disease free rhizomes (20-30 g each) of +
+RCT-1 (Megha turmeric-1) cultivar were planted in furrow
+at a spacing of 30 cm x 30 cm with the average seed rate
+of 2 t/ha between last week of April and first week of May
+during all the years.Vermicompost (VC) was appliedin
+two equal splits @2-5 t/ha at the time of first earthing
+(45-50 days after planting) and second earthing (85-90
+days after planting). Mulching with locally available weed
+biomass @5 t/ha was done just after planting of turmeric.
+In order to minimize the incidence of insect and pests
+neem oil @0.75% was sprayed fortnightly. The crop was
+harvested in the month of November during all the years.
+At maturity, dry leaves of turmeric were cut close to the
+ground. After that the rhizomes were dried in shade
+for 4 to 6 days after removing the dirt and leaves. With
+regard to the cucurbitaceous crops, three to four seed of
+cucurbits were sown in the pit (30 cm x 30 cm x 30 cm)
+at 2.5 to 3 cm depth between last week of April and first
+week of June with a spacing of 2.5 m x 2.0 m during all
+the years of experimentation. Before sowing, the seed was
+treated with Pseudomonas florescence @10 g/kg of seed
+and Trichoderma viride @4 g/kg of seed. With regard to
+manuring, 5 kg FYM per pit (treated with consortia of
+Azospirillum, Phosphobacteria and Pseudomonas @5 g)
+one week before sowing and 0.5 kg vermicompost per
+pit at time of sowing as a basal dose were applied. In
+general most of the cucurbits under study were ready to
+harvest after 90 DAS (Days after sowing). Observations
+on yield of all the crops were recorded as per the standard
+procedures. Cost of cultivation of each crop was computed
+based on the prevailing local market price of the inputs
+and outputs during the respective crop season. System
+productivity, returns, B:C ratio, production efficiency (SPE),
+relative production efficiency (RPE), system profitability
+(SP), relative economic efficiency (REE) and relative
+employment generation efficiency (REGE) were calculated
+as per the formulae suggested by Babu et al. (2016). For
+
+33
+
+
+2022
+
+soil analysis, s (Brassica oleracea var. italica) oil samples
+were collected from each plot (0-15 cm soil depth) before
+initiation and after five years of fixed plot experiment. Soil
+organic carbon (SOC) concentration was determined by
+Walkley and Black method (Nelson and Sommers 2005),
+available N by alkaline Potassium Permanganate method
+(Subbiah and Asajia 1956), available P by Bray’s method
+(Bray and Kurtz 1945) and available K by Ammonium
+Acetate Extraction method (Jackson 1973). The SMBC
+was determined by the ethanol-free chloroform fumigation
+extraction method (Vance ef al. 1987) using Ke value of
+0.45 (Jenkinson and Ladd 1981).
+
+Data obtained from various systems were averaged and
+statistically analyzed using the F-test as per the procedure
+given by Gomez and Gomez (1984). Critical difference (CD)
+values at P=0.05 were used to determine the significance
+of differences between means.
+
+RESULTS AND DISCUSSION
+
+System productivity and profitability: In general,
+vertical integration of cucurbits was more productive over
+the open cultivation of turmeric (farmers’ practice). While
+comparing the total productivity of vertical integration of
+turmeric with cucurbits in terms of turmeric equivalent yield,
+significantly higher turmeric equivalent yield (TEY) was
+recorded with turmeric + bottle gourd (33.94 t/ha) followed
+by turmeric + sponge gourd and turmeric + cucumber
+system (Table 1), whereas open cultivation of turmeric
+resulted in the lowest TEY (20.71 t/ha). This enhanced
+productivity of turmeric under partial shade condition over
+the open cultivation resulted in higher cumulative amount of
+produce in vertical integration. Correspondingly, maximum
+system production efficiency (93 kg/ha/day) was recorded
+with turmeric + bottle gourd system followed by turmeric
++ sponge gourd system. Being partially shade loving in
+nature, turmeric performs well in vertical cropping system
+and gives more production and income over the open or
+traditional cultivation of turmeric. Turmeric under vertical
+cropping gave around 63% higher productivity as against
+growing of sole crop in open conditions. Yield improvement
+in turmeric due to shading was also reported by Behera et al.
+(2014). Crop yield, duration and sale price of the produce
+greatly influenced the overall return and PE (production
+
+PANWAR ET AL.
+
+[Indian Journal of Agricultural Sciences 89 (12)
+
+efficiency) of various systems (Babu et al. 2016) and
+resulted in higher production efficiency. Similarly, relative
+production efficiency (RPE), i.e. the capacity of the system
+for production in relation to existing system was maximum
+(63.9%) with turmeric + bottle gourd followed by turmeric
++ sponge gourd system.
+
+Economics and employment generation efficiency:
+Economic analysis showed that the highest cost was incurred
+in the cultivation of turmeric + sponge gourd combination
+(226.2 x 10°%/ha) followed by turmeric + cucumber (208.7
+x 10°%/ha). The lowest cost was incurred in the open
+cultivation ofturmeric (160.3 * 10°%/ha). The net return
+(477.7  10°%/ha) and B:C ratio (3.37) were significantly
+higher with turmeric + bottle gourd system followed by
+turmeric + cucumber integration. This was due to higher
+system productivity of turmeric in vertical integration.
+Similar results were also reported by Srikrishnah and
+Sutharsan (2015). Relative economic efficiency (REE)is a
+comparative measure of economic gains over the existing
+system. Vertical integration of cucurbits had higher economic
+gain over the open cultivation of turmeric. Among the
+various combinations of cucurbits with turmeric, the vertical
+integration of turmeric with bottle gourd recorded highest
+economic gain (151.5%) followed by turmerict+cucumber
+system (Table 2). Similarly, the maximum system
+profitability (1308.0 %/ha/day) was recorded with turmeric
++bottlegourd. On the contrary, minimum system profitability
+(695.8 @/ha/day) was recorded with open cultivation of
+turmeric. Employment generation is a key indicator to assess
+sustainability of any production system. It was evident
+from data (Table 2) that vertical integration of cucurbits
+with turmeric generated more employment as compared
+to monocropping of turmeric that generated only 637
+mandays/ha to harvest the final produce. Among the vertical
+integration systems, turmeric + squash cropping system
+provided highest employment (724 mandays/ha) followed
+by turmeric+ bottlegourd cropping system. Cumulative
+synergetic effect of intercropping over monocropping was
+also reported by Wang et al. (2014). Data related to relative
+system employment generation efficiency (REGE), i.e.
+additional mandays required for an improved system in
+relation to the existing production system, showed that all
+the vertical combinations had higher economic generation
+
+Table 1 Effect of vertical cropping on turmeric equivalent yield (TEY), system production efficiency (SPE), relative production
+efficiency (RPE) (Data pooled over 5 years)
+Treatment Average yield (t/ha) TEY SPE (kg/ RPE
+Turmeric Cucumber Bottlegourd Sponge gourd Squash (t/ha) __—ha/day) (%)
+Turmeric + Cucumber 29.6 4.8 -- -- -- 31.96 87.6 54.3
+Turmeric + Bottlegourd 30.3 -- 10.4 -- -- 33.94 93.0 63.9
+Turmeric + Sponge gourd 28.4 -- -- 9.4 -- 33.10 90.7 59.8
+Turmeric + Squash 26.4 -- -- -- 79 28.37 717 37.0
+Turmeric (Monocropping) 20.7 -- -- -- -- 20.71 56.7 0.0
+SEm+ -- - - - -- 1.40 2.34 --
+LSD (P=0.05) - - - 9.47 5.77 --
+
+34
+
+
+December 2019]
+
+VERTICAL CROPPING IN NORTH EASTERN INDIAN HIMALAYAS
+
+2023
+
+Table 2. Effect of vertical cropping on system net returns, B:C ratio, profitability, relative economic efficiency (REE), employment
+
+generation and relative employment generation efficiency (REGE)
+
+(Data pooled over 5 years)
+
+Treatment Average cost of Net returns B:C Profitability REE Employment generation REGE
+cultivation ® x 103 /ha) (® x 103 /ha) ratio (8/ha/day) (%) (Man-days) (%)
+Turmeric + 208.7 430.47 3.06 1179.4 69.49 703 10.20
+Cucumber
+Turmeric + 201.4 477.41 3.37 1308.0 87.97 715 12.16
+Bottlegourd
+Turmeric + 226.2 435.82 2.93 1194.0 71.60 708 10.98
+Spongegourd
+Turmeric + Squash 190.6 376.79 2.98 1032.3 48.36 724 13.50
+Turmeric 160.3 253.98 2.58 695.8 0.0 637 0
+SEm+ -- 6.92 0.12 5.07 - - -
+LSD (P=0.05) -- 13.66 7.90 27.43 -- -- --
+Table 3. Effect of vertical cropping on soil fertility status and soil microbial biomass carbon (SMBC) after five years
+Treatment Organic carbon Available N Available P Available K SMBC
+(%) (kg/ha) (kg/ha) (kg/ha) (g/kg soil)
+Turmeric + Cucumber 2.15 220.8 8.2 177.2 52.9
+Turmeric + Bottlegourd 2.18 231.2 21.5 185.8 55.4
+Turmeric + Spongegourd 2.16 225.7 8.8 189.3 64.8
+Turmeric + Squash 2.18 241.0 22.2 194.7 75.9
+Turmeric 2.14 216.2 74 168.5 47.7
+SEm+ 0.014 27.6 0.71 2.59 4.09
+LSD (P=0.05) NS 85.12 2.20 7.99 2.62
+Initial value 2.12 201.2 5.9 156.1 39.3
+ability as compared to the prevailing system of the region. addition of crop residue was also reported by Kopke and
+Among the vertical cropping sequences, integration of | Nemecek (2010), Yadav et al. (2019). With regards to the
+turmeric with squash resulted in maximum REGE (13.50%) soil microbial biomass carbon (SMBC), vertical integration
+
+followed by turmeric+ bottlegourd system.
+
+Post-harvest soil fertility status: Soil organic carbon
+is less affected by vertical cropping over a period of five
+years but it was dependent on crop combinations. All
+vertical cropping systems did not change soil organic carbon
+significantly, but turmeric + squash and turmeric+bottle
+gourd recorded the highest organic carbon content among
+the various vertical crop combinations (Table 3). Positive
+effect of plant diversity on soil carbon storage was also
+reported by Beedy et al. (2010).
+
+The crops with varying root depth, tap different layers
+of soil for plant nutrients and moisture. Among the available
+nutrients, maximum amount of nitrogen (241 kg/ha),
+phosphorus (22.2 kg/ha) and potassium (194.7 kg/ha) was
+recorded in turmeric + squash system followed by turmeric
++ bottle gourd. It was presumed that the nutrient removal
+would be more in vertical cropping over the open cultivation
+of turmeric and it is logically correct also. However, in
+the present study, fixed plots were maintained over five
+years and residue of both the crops were incorporated in
+same plot which might be the basic reason for fertility
+improvement in vertical integration over the open cultivation
+of turmeric. Improvement in available soil nutrients due to
+
+significantly improved the SMBC over the open cultivation
+of turmeric (monocropping). Improvement in selected
+soil biological activities in intercropping systems was
+also reported by Wang et al. (2014). Among the vertical
+combinations, the maximum value of SMBC (175.9g/
+kg) soil was recorded with turmeric + squash followed
+by turmeric+ sponge gourd. The soil biological activities
+are greatly influenced by the type of crops grown in the
+combinations, hence the results were in agreement with
+the finding of Gunes et al. (2007).
+
+Thus, it can be concluded that the ecofriendly vertical
+cropping of turmeric with cucurbits is a viable alternative
+for sustaining the livelihood security of hill farmers.
+Combination of turmeric with bottle gourd is the best
+option for harvesting the maximum crop productivity from
+unit area in NEHR. Therefore, this can be recommended
+for proper utilization of sloping lands in NEHR to achieve
+higher productivity and income in the region.
+
+ACKNOWLEDEMENTS
+
+The authors are thankful to the ICAR-IIFSR,
+Modipuram, Meerut, Uttar Pradesh for providing financial
+support to conduct this research under AICRP-IFS.
+
+35
+
+
+2024
+
+REFERENCES
+
+Babu S, Singh R, Avasthe R K, Yadav G S and Rajkhowa D J. 2016.
+Intensification of maize (Zea mays) —based cropping sequence
+in rainfed ecosystem of Sikkim Himalayas for improving
+system productivity, profitability, employment generation and
+energy-use efficiency under organic management condition.
+Indian Journal of Agricultural Sciences 86(6): 778-84.
+
+Beedy T L, Snapp S S, Akinnifesi F K and Sileshi G W. 2010.
+Impact of Gliricidia sepium intercropping on soil organic
+matter fractions in a maize-based cropping system. Agriculture
+Ecosystems and Environment 138: 139-46.
+
+Behera D, Munsi P S and Ray D P. 2014. Studies on the performance
+of intercrops on the nutrient uptake and yield attributes of
+mango cv. Amrapali. Advance Research Journal of Crop
+Improvement 5(2): 69-73.
+
+Bray R H and Kurtz L T. 1945. Determination of total, organic
+and available forms of phosphorus in soils. Soil Science 59:
+39-45.
+
+Chapagain T and Good A. 2015.Yield and production gaps in
+rainfed wheat, barley and canola in Alberta. Frontiers in Plant
+Science 6: 990.
+
+Chapagain T and Raizada M N. 2017. Agronomic challenges and
+opportunities for smallholder terrace agriculture in developing
+countries. Frontiers in Plant Science 8: 331.
+
+Chapagain T, Super L and Riseman A. 2014. Root architecture
+variation in wheat and barley cultivars. American Journal of
+Experimental Agriculture 4: 849-56.
+
+Gunes A, Inal A, Cicek N and Eraslan F. 2007. Role of
+phosphatases, iron reducing, and solubilizing activity on the
+nutrient acquisition in mixed cropped peanut and barley. Journal
+of Plant Nutrition 30: 1555-68.
+
+Hoshikawa K. 1991. Significance of legumes crops in intercropping,
+the productivity and stability of cropping system. pp. 173-6.
+Phosphorus Nutrition of Grain Legumes in the Semi-Arid
+Tropics. Johanson C, Lee K K and Saharawat K L (Eds).
+ICRISAT, Patancheru, Andhra Pradesh, India.
+
+Jackson M L. 1973. Soil Chemical Analysis. Prentice Hall of
+India Pvt Ltd, New Delhi.
+
+Jenkinson D S and Ladd J N. 1981. Microbial biomass in soil:
+Measurement and turnover, pp. 415—71. Soil Biochemistry.Paul
+E A and Ladd J N (Eds). Marcel Dekker, New York.
+
+Kopke U and Nemecek T. 2010. Ecological services of faba bean.
+Field Crops Research 115: 217-33.
+
+PANWAR ET AL.
+
+[Indian Journal of Agricultural Sciences 89 (12)
+
+Lo pez-Bellido L, Lopez-Bellido R J, Redondo R and Benitez J.
+2006. Faba bean nitrogen fixation in a wheat-based rotation
+under rainfed Mediterranean conditions: effect of tillage system.
+Field Crops Research 98: 253-60.
+
+Nelson D W and Sommers L E. 2005.Total carbon, organic carbon
+and organic matter. Analysis of Soil and Plants Chemical
+Methods. Spark D L (Ed).SSSA Book Series 5, Soil Science
+Society of America, American Society of Agronomy Inc.,
+Wisconsin, USA.
+
+Singh A K and Edison S. 2003.Eco-friendly management of leaf
+spot of turmeric under partial shade. Indian Phytopathology
+56(4): 479-80.
+
+Singh S S, Singh A K and Sundaram P K. 2014. Agro technological
+options for up scaling agricultural productivity in eastern Indo
+Gangetic plains under impending climate change situations: A
+review. Journal of Agrisearch 1(2): 55-65.
+
+Srikrishnah S and Sutharsan S. 2015.Effect of different shade levels
+on growth and tuber yield of turmeric (Curcuma longa L.) in
+the Batticaloa district of Sri Lanka.American-Eurasian Journal
+of Agriculture and Environmental Sciences 15(5): 813-6
+
+Subbiah B V and Asija G L. 1956.A rapid procedure for the
+determination of available nitrogen in rice soils. Current
+Science 25: 259-60.
+
+Trupti P, Dodiya A, Gadhiya D and Patel G D. 2018. A review:
+effect of inter cropping in horticultural crops. /nternational
+Journal of Current Microbiology and Applied Sciences 7(02):
+1512-20.
+
+Vance E D, Brookes P C, and Jenkinson D S. 1987.An extraction
+method for measuring soil microbial biomass C. Soil Biology
+& Biochemistry 19: 703-7.
+
+Wang Zhi-Gang, Jin Xin, Bao Xing-Guo, Li Xiao-Fei, Zhao
+Jian-Hua, HaoJian. 2014. Intercropping enhances productivity
+and maintains the most soil fertility properties relative to sole
+cropping. PLoS ONE 9(12): e113984
+
+‘Wymann von, Dach S, Romeo R, Vita A, Wurzinger M and Kohler
+T. 2013. Mountain farming is family farming: a contribution
+from mountain areas to the International Year of Family Farming
+2014. Rome: FAO, CDE, BOKU.
+
+Yadav G S, Babu S, Das A, Bhowmik S N, Datta M and Singh R.
+2019. Soil carbon dynamics and productivity of rice-rice system
+under conservation tillage in submerged and unsubmerged
+ecologies of Eastern Indian Himalaya. Carbon Management.
+https://doi.org/10.1080/17583004.2018.1545518.
+
+36
+
+

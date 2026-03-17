@@ -9,7 +9,7 @@ class RAGPipeline:
     def __init__(self, index_path: str = "vectorDB"):
         self.index_path = index_path
         self.embeddings = HuggingFaceEmbeddings(
-            model_name="BAAI/bge-m3"
+            model_name="sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
         )
 
     def create_chunks(self, text: str, source: str = "unknown"):

@@ -35,7 +35,7 @@ def save_processed_log(log: dict):
     with open(PROCESSED_LOG, "w", encoding="utf-8") as f:
         json.dump(log, f, ensure_ascii=False, indent=2)
 
-def get_or_cache_text(filename: str) -> str:
+def get_or_cache_text(filename: str) -> tuple:
     """Read from cache if available, else extract from PDF and save."""
     os.makedirs(CACHE_DIR, exist_ok=True)
     name = os.path.splitext(filename)[0]
@@ -44,14 +44,46 @@ def get_or_cache_text(filename: str) -> str:
     if os.path.exists(cache_path):
         print(f"⚡ Loading cached text: '{filename}'")
         with open(cache_path, "r", encoding="utf-8") as f:
-            return f.read()
+            return f.read(), os.path.basename(cache_path)
     else:
         print(f"📖 Reading PDF for first time: '{filename}'")
         text = reader.read_pdf(os.path.join("data", filename))
         with open(cache_path, "w", encoding="utf-8") as f:
             f.write(text)
         print(f"💾 Cached: '{filename}'")
-        return text
+        return text, os.path.basename(cache_path)
+
+# -------- PROCESS UPLOADED PDF -------- #
+def process_new_pdf(filename: str, progress=None) -> bool:
+    try:
+        if progress: progress.progress(10, text="📖 Extracting text from PDF...")
+        text, cache_name = get_or_cache_text(filename)
+
+        if progress: progress.progress(50, text="✂️ Creating chunks...")
+        chunks = rag.create_chunks(text, source=cache_name)
+
+        if progress: progress.progress(75, text="🧠 Adding to knowledge base...")
+        
+        # ✅ Use existing vectorDB logic instead of get_vector_db
+        global vectorstore
+        if os.path.exists("vectorDB"):
+            vectorstore = rag.load_vector_db()
+            vectorstore.add_documents(chunks)
+            vectorstore.save_local("vectorDB")
+        else:
+            vectorstore = rag.create_vector_db(chunks)
+
+        if progress: progress.progress(90, text="💾 Saving progress log...")
+        processed_log = load_processed_log()
+        processed_log[filename] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        save_processed_log(processed_log)
+
+        if progress: progress.progress(100, text="✅ Done!")
+        return True
+
+    except Exception as e:
+        print(f"❌ Failed to process '{filename}': {e}")
+        return False
 
 # -------- LOAD / BUILD VECTOR DB -------- #
 @st.cache_resource
@@ -76,8 +108,8 @@ def load_vector_db():
 
     for filename in new_pdfs:
         print(f"\n📂 Processing: {filename}")
-        text = get_or_cache_text(filename)
-        chunks = rag.create_chunks(text, source=filename)
+        text, cache_name = get_or_cache_text(filename)      # ✅ unpack tuple
+        chunks = rag.create_chunks(text, source=cache_name) # ✅ use cache_name
         all_new_chunks.extend(chunks)
         processed_log[filename] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
@@ -102,6 +134,55 @@ vectorstore = load_vector_db()
 with st.sidebar:
     st.title("🌱 FarmGuru")
     st.markdown("Ask questions about farming in **English, Hindi or Marathi**")
+    st.divider()
+
+    # -------- PDF UPLOAD -------- #
+    st.subheader("📁 Upload Farming PDF")
+    uploaded_file = st.file_uploader(
+        "Upload a new farming PDF",
+        type=["pdf"],
+        help="PDF will be saved, cached and added to the knowledge base"
+    )
+
+    if uploaded_file is not None:
+        processed_log = load_processed_log()
+
+        if uploaded_file.name in processed_log:
+            st.info(f"✅ '{uploaded_file.name}' is already in the knowledge base!")
+        else:
+            if st.button("➕ Add to Knowledge Base"):
+                os.makedirs("data", exist_ok=True)
+                save_path = os.path.join("data", uploaded_file.name)
+                with open(save_path, "wb") as f:
+                    f.write(uploaded_file.getbuffer())
+
+                 # ✅ Create progress bar and pass it
+                progress = st.progress(0, text="🚀 Starting...")
+                success = process_new_pdf(uploaded_file.name, progress)
+
+                if success:
+                    st.success(f"✅ '{uploaded_file.name}' added to knowledge base!")
+                else:
+                    progress.empty()   # ✅ Hide progress bar on failure
+                    st.error("❌ Failed to process. Try again.")
+                
+                with st.spinner(f"📖 Processing '{uploaded_file.name}'... this may take a while"):
+                    success = process_new_pdf(uploaded_file.name)
+
+                if success:
+                    st.success(f"✅ '{uploaded_file.name}' added to knowledge base!")
+                else:
+                    st.error("❌ Failed to process. Please try again.")
+
+    st.divider()
+
+    # -------- KNOWLEDGE BASE -------- #
+    processed_log = load_processed_log()
+    if processed_log:
+        st.subheader("📚 Knowledge Base")
+        for pdf_name in processed_log:
+            st.caption(f"✅ {pdf_name}")
+
     st.divider()
     if st.button("🗑️ Clear Chat"):
         st.session_state.messages = []
